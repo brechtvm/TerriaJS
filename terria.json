@@ -16,6 +16,15 @@
                 "name": "GRB",
                 "type": "wms-getCapabilities",
                 "url": " https://geoservices.informatievlaanderen.be/raadpleegdiensten/GRB/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+            },
+            {
+                "name": "vMaps",
+                "type": "group",
+                "items": [{
+                    "name": "BE-LU-NL_20170421_3",
+                    "type": "wms-getCapabilities",
+                    "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/ms?map=/config/layers.map&request=getcapabilities&service=wms"
+                }]
             }
         ],
         "preserveOrder": true,
