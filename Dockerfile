@@ -38,6 +38,11 @@ WORKDIR /usr/local/app/TerriaMap
 # COPY ./files/UserInterface.jsx /usr/local/app/TerriaMap/lib/Views/UserInterface.jsx
 # COPY ./images/ /usr/local/app/TerriaMap/wwwroot/build/
 
+# ----------------------------------------
+# Customization for Be-Mobile
+# ----------------------------------------
+COPY ./terria.json /usr/local/app/TerriaMap/wwwroot/init
+
 RUN npm install
 RUN npm run gulp
 EXPOSE 3001
