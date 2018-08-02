@@ -1,0 +1,1 @@
+docker cp terria.json d6ed34372473:/usr/local/app/TerriaMap/wwwroot/init/terria.json

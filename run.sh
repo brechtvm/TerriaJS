@@ -1,0 +1,1 @@
+docker run -p3001:3001 terriajs:latest
