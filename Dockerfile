@@ -42,6 +42,7 @@ WORKDIR /usr/local/app/TerriaMap
 # Customization for Be-Mobile
 # ----------------------------------------
 COPY ./terria.json /usr/local/app/TerriaMap/wwwroot/init
+COPY ./terria_logo.png /usr/local/app/TerriaMap/wwwroot/images/
 
 RUN npm install
 RUN npm run gulp
