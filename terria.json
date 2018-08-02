@@ -3,14 +3,32 @@
             "name": "Public Datasets",
             "type": "group",
             "items": [{
-                    "name": "NGI - CartoWeb",
-                    "type": "wms-getCapabilities",
-                    "url": "https://wms.ngi.be/cartoweb/service?REQUEST=GetCapabilities&SERVICE=WMS"
+                    "name": "World",
+                    "type": "group",
+                    "items": []
                 },
                 {
-                    "name": "WegenRegister",
-                    "type": "wms-getCapabilities",
-                    "url": "https://geoservices.informatievlaanderen.be/raadpleegdiensten/Wegenregister/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+                    "name": "ESRI World_Imagery",
+                    "type": "esri-mapServer-group",
+                    "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml"
+                },
+                {
+                    "name": "National",
+                    "type": "group",
+                    "items": [{
+                            "name": "EU - BE (Belgium)",
+                            "type": "group",
+                            "items": [{
+                                "name": "GRB",
+                                "type": "wms-getCapabilities",
+                                "url": " https://geoservices.informatievlaanderen.be/raadpleegdiensten/GRB/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+                            }]
+                        },
+                        {
+                            "name": "EU - NL (TheNetherlands)",
+                            "type": "group"
+                        }
+                    ]
                 },
                 {
                     "name": "GRB",
@@ -18,9 +36,14 @@
                     "url": " https://geoservices.informatievlaanderen.be/raadpleegdiensten/GRB/wms?REQUEST=GetCapabilities&SERVICE=WMS"
                 },
                 {
-                    "name": "ESRI World_Imagery",
-                    "type": "wmts",
-                    "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml"
+                    "name": "WegenRegister",
+                    "type": "wms-getCapabilities",
+                    "url": "https://geoservices.informatievlaanderen.be/raadpleegdiensten/Wegenregister/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+                },
+                {
+                    "name": "NGI - CartoWeb",
+                    "type": "wms-getCapabilities",
+                    "url": "https://wms.ngi.be/cartoweb/service?REQUEST=GetCapabilities&SERVICE=WMS"
                 }
             ],
             "preserveOrder": true,
