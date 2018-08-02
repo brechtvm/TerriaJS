@@ -43,6 +43,7 @@ WORKDIR /usr/local/app/TerriaMap
 # ----------------------------------------
 COPY ./terria.json /usr/local/app/TerriaMap/wwwroot/init
 COPY ./terria_logo.png /usr/local/app/TerriaMap/wwwroot/images/
+COPY ./GlobalDisclaimer.html /usr/local/app/TerriaMap/lib/Views/GlobalDisclaimer.html
 
 RUN npm install
 RUN npm run gulp
