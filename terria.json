@@ -7,7 +7,7 @@
                     "type": "group",
                     "items": [{
                         "name": "ESRI World_Imagery",
-                        "type": "esri-mapServer-group",
+                        "type": "wmts",
                         "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml"
                     }]
                 },
