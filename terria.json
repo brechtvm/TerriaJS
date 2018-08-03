@@ -73,6 +73,21 @@
                                     "name": "NGI - CartoWeb",
                                     "type": "wms-getCapabilities",
                                     "url": "https://wms.ngi.be/cartoweb/service?REQUEST=GetCapabilities&SERVICE=WMS"
+                                },
+                                {
+                                    "name": "KilometerPaaltjes",
+                                    "type": "group",
+                                    "items": [{
+                                            "name": "Kilometer paaltjes Vlaanderen",
+                                            "type": "geojson",
+                                            "url": "https://km-beacons.be-mobile.biz/kmbeacons-v.json"
+                                        },
+                                        {
+                                            "name": "Kilometer paaltjes Wallonië",
+                                            "type": "geojson",
+                                            "url": "https://km-beacons.be-mobile.biz/kmbeacons-w.json"
+                                        }
+                                    ]
                                 }
                             ]
                         },
