@@ -6,10 +6,23 @@
                     "name": "World",
                     "type": "group",
                     "items": [{
-                        "name": "ESRI World_Imagery",
-                        "type": "wmts",
-                        "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml"
-                    }]
+                            "name": "ESRI World_Imagery",
+                            "type": "wmts",
+                            "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml"
+                        },
+                        {
+                            "name": "Waze",
+                            "type": "url-template",
+                            "url": "https: //worldtiles1.waze.com/tiles/{z}/{x}/{y}.png",
+                            "minimumLevel": 13,
+                            "maximumLevel": 21,
+                            "rectangle": [-69.95496855318628,
+                                41.82165113892819, -69.93832861576816,
+                                41.85021565878684
+                            ],
+                            "ignoreUnknownTileErrors": true
+                        }
+                    ]
                 },
                 {
                     "name": "National",
