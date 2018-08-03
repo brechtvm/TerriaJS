@@ -13,15 +13,38 @@
                         {
                             "name": "Waze",
                             "type": "url-template",
-                            "url": "https://worldtiles1.waze.com/tiles/{z}/{x}/{y}.png",
+                            "url": "https://worldtiles4.waze.com/tiles/{z}/{x}/{y}.png",
                             "minimumLevel": 13,
                             "maximumLevel": 21,
                             "rectangle": [-31.860352,
                                 33.468108,
                                 51.855469,
                                 64.072200
-                            ],
-                            "ignoreUnknownTileErrors": true
+                            ]
+                        },
+                        {
+                            "name": "wikimedia",
+                            "type": "url-template",
+                            "url": "https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png",
+                            "minimumLevel": 13,
+                            "maximumLevel": 21,
+                            "rectangle": [-31.860352,
+                                33.468108,
+                                51.855469,
+                                64.072200
+                            ]
+                        },
+                        {
+                            "name": "cartodb",
+                            "type": "url-template",
+                            "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                            "minimumLevel": 13,
+                            "maximumLevel": 21,
+                            "rectangle": [-31.860352,
+                                33.468108,
+                                51.855469,
+                                64.072200
+                            ]
                         }
                     ]
                 },
