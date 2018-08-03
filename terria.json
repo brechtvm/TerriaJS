@@ -16,9 +16,10 @@
                             "url": "https://worldtiles{s}.waze.com/tiles/{z}/{x}/{y}.png",
                             "minimumLevel": 13,
                             "maximumLevel": 21,
-                            "rectangle": [-180.0000, -90.0000,
-                                180.0000,
-                                90.000
+                            "rectangle": [-31.860352,
+                                33.468108,
+                                51.855469,
+                                64.072200
                             ],
                             "ignoreUnknownTileErrors": true
                         }
