@@ -81,11 +81,19 @@
                                             "name": "Kilometer paaltjes Vlaanderen",
                                             "type": "geojson",
                                             "url": "https://km-beacons.be-mobile.biz/kmbeacons-v.json"
+                                        }, {
+                                            "name": "Kilometer paaltjes Vlaanderen - stripped",
+                                            "type": "geojson",
+                                            "url": "https://km-beacons.be-mobile.biz/kmbeacons-v-small.json"
                                         },
                                         {
                                             "name": "Kilometer paaltjes Wallonië",
                                             "type": "geojson",
                                             "url": "https://km-beacons.be-mobile.biz/kmbeacons-w.json"
+                                        }, {
+                                            "name": "Kilometer paaltjes Wallonië - stripped",
+                                            "type": "geojson",
+                                            "url": "https://km-beacons.be-mobile.biz/kmbeacons-w-small.json"
                                         }
                                     ]
                                 }
