@@ -13,7 +13,7 @@
                         {
                             "name": "Waze",
                             "type": "url-template",
-                            "url": "https://worldtiles1.waze.com/tiles/{z}/{x}/{y}.png",
+                            "url": "https://worldtiles{s}.waze.com/tiles/{z}/{x}/{y}.png",
                             "minimumLevel": 13,
                             "maximumLevel": 21,
                             "rectangle": [-180.0000, -90.0000,
