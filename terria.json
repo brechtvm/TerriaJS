@@ -116,7 +116,7 @@
                 "name": "BE-LU-NL_20170421_3",
                 "type": "group",
                 "items": [{
-                    "name": "BE-LU-NL_20170421_3",
+                    "name": "RC1",
                     "type": "url-template",
                     "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png"
                 }],
