@@ -1,142 +1,144 @@
 {
     "catalog": [{
-            "name": "Public Datasets",
-            "type": "group",
-            "items": [{
-                    "name": "World",
+                "name": "Public Datasets",
+                "type": "group",
+                "items": [{
+                        "name": "World",
+                        "type": "group",
+                        "items": [{
+                                "name": "ESRI World_Imagery",
+                                "type": "wmts",
+                                "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml"
+                            },
+                            {
+                                "name": "Waze",
+                                "type": "url-template",
+                                "url": "https://worldtiles4.waze.com/tiles/{z}/{x}/{y}.png",
+                                "minimumLevel": 13,
+                                "maximumLevel": 21,
+                                "rectangle": [-31.860352,
+                                    33.468108,
+                                    51.855469,
+                                    64.072200
+                                ]
+                            },
+                            {
+                                "name": "wikimedia",
+                                "type": "url-template",
+                                "url": "https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png",
+                                "minimumLevel": 13,
+                                "maximumLevel": 21,
+                                "rectangle": [-31.860352,
+                                    33.468108,
+                                    51.855469,
+                                    64.072200
+                                ]
+                            },
+                            {
+                                "name": "cartodb",
+                                "type": "url-template",
+                                "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                                "minimumLevel": 13,
+                                "maximumLevel": 21,
+                                "rectangle": [-31.860352,
+                                    33.468108,
+                                    51.855469,
+                                    64.072200
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "National",
+                        "type": "group",
+                        "items": [{
+                                "name": "EU - BE (Belgium)",
+                                "type": "group",
+                                "items": [{
+                                        "name": "GRB",
+                                        "type": "wms-getCapabilities",
+                                        "url": " https://geoservices.informatievlaanderen.be/raadpleegdiensten/GRB/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+                                    },
+                                    {
+                                        "name": "GRB",
+                                        "type": "wms-getCapabilities",
+                                        "url": " https://geoservices.informatievlaanderen.be/raadpleegdiensten/GRB/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+                                    },
+                                    {
+                                        "name": "WegenRegister",
+                                        "type": "wms-getCapabilities",
+                                        "url": "https://geoservices.informatievlaanderen.be/raadpleegdiensten/Wegenregister/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+                                    },
+                                    {
+                                        "name": "NGI - CartoWeb",
+                                        "type": "wms-getCapabilities",
+                                        "url": "https://wms.ngi.be/cartoweb/service?REQUEST=GetCapabilities&SERVICE=WMS"
+                                    },
+                                    {
+                                        "name": "KilometerPaaltjes",
+                                        "type": "group",
+                                        "items": [{
+                                                "name": "Kilometer paaltjes Vlaanderen",
+                                                "type": "geojson",
+                                                "url": "https://km-beacons.be-mobile.biz/kmbeacons-v.json"
+                                            }, {
+                                                "name": "Kilometer paaltjes Vlaanderen - stripped",
+                                                "type": "geojson",
+                                                "url": "https://km-beacons.be-mobile.biz/kmbeacons-v-small.json"
+                                            },
+                                            {
+                                                "name": "Kilometer paaltjes Wallonië",
+                                                "type": "geojson",
+                                                "url": "https://km-beacons.be-mobile.biz/kmbeacons-w.json"
+                                            }, {
+                                                "name": "Kilometer paaltjes Wallonië - stripped",
+                                                "type": "geojson",
+                                                "url": "https://km-beacons.be-mobile.biz/kmbeacons-w-small.json"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "EU - NL (TheNetherlands)",
+                                "type": "group"
+                            }
+                        ]
+                    }
+                ],
+                "preserveOrder": true,
+                "isOpen": false
+            },
+            {
+                "name": "Private Datasets",
+                "type": "group",
+                "items": [{
+                    "name": "BE-LU-NL_20170421_3",
                     "type": "group",
                     "items": [{
-                            "name": "ESRI World_Imagery",
-                            "type": "wmts",
-                            "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml"
-                        },
-                        {
-                            "name": "Waze",
-                            "type": "url-template",
-                            "url": "https://worldtiles4.waze.com/tiles/{z}/{x}/{y}.png",
-                            "minimumLevel": 13,
-                            "maximumLevel": 21,
-                            "rectangle": [-31.860352,
-                                33.468108,
-                                51.855469,
-                                64.072200
-                            ]
-                        },
-                        {
-                            "name": "wikimedia",
-                            "type": "url-template",
-                            "url": "https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png",
-                            "minimumLevel": 13,
-                            "maximumLevel": 21,
-                            "rectangle": [-31.860352,
-                                33.468108,
-                                51.855469,
-                                64.072200
-                            ]
-                        },
-                        {
-                            "name": "cartodb",
-                            "type": "url-template",
-                            "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
-                            "minimumLevel": 13,
-                            "maximumLevel": 21,
-                            "rectangle": [-31.860352,
-                                33.468108,
-                                51.855469,
-                                64.072200
-                            ]
-                        }
-                    ]
+                        "name": "BE-LU-NL_20170421_3",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png"
+                    }],
+                    "preserveOrder": true,
+                    "isOpen": false
+                }],
+                "homeCamera": {
+                    "west": 109,
+                    "east": 158,
+                    "north": -8,
+                    "south": -45
                 },
-                {
-                    "name": "National",
-                    "type": "group",
-                    "items": [{
-                            "name": "EU - BE (Belgium)",
-                            "type": "group",
-                            "items": [{
-                                    "name": "GRB",
-                                    "type": "wms-getCapabilities",
-                                    "url": " https://geoservices.informatievlaanderen.be/raadpleegdiensten/GRB/wms?REQUEST=GetCapabilities&SERVICE=WMS"
-                                },
-                                {
-                                    "name": "GRB",
-                                    "type": "wms-getCapabilities",
-                                    "url": " https://geoservices.informatievlaanderen.be/raadpleegdiensten/GRB/wms?REQUEST=GetCapabilities&SERVICE=WMS"
-                                },
-                                {
-                                    "name": "WegenRegister",
-                                    "type": "wms-getCapabilities",
-                                    "url": "https://geoservices.informatievlaanderen.be/raadpleegdiensten/Wegenregister/wms?REQUEST=GetCapabilities&SERVICE=WMS"
-                                },
-                                {
-                                    "name": "NGI - CartoWeb",
-                                    "type": "wms-getCapabilities",
-                                    "url": "https://wms.ngi.be/cartoweb/service?REQUEST=GetCapabilities&SERVICE=WMS"
-                                },
-                                {
-                                    "name": "KilometerPaaltjes",
-                                    "type": "group",
-                                    "items": [{
-                                            "name": "Kilometer paaltjes Vlaanderen",
-                                            "type": "geojson",
-                                            "url": "https://km-beacons.be-mobile.biz/kmbeacons-v.json"
-                                        }, {
-                                            "name": "Kilometer paaltjes Vlaanderen - stripped",
-                                            "type": "geojson",
-                                            "url": "https://km-beacons.be-mobile.biz/kmbeacons-v-small.json"
-                                        },
-                                        {
-                                            "name": "Kilometer paaltjes Wallonië",
-                                            "type": "geojson",
-                                            "url": "https://km-beacons.be-mobile.biz/kmbeacons-w.json"
-                                        }, {
-                                            "name": "Kilometer paaltjes Wallonië - stripped",
-                                            "type": "geojson",
-                                            "url": "https://km-beacons.be-mobile.biz/kmbeacons-w-small.json"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "EU - NL (TheNetherlands)",
-                            "type": "group"
-                        }
-                    ]
-                }
-            ],
-            "preserveOrder": true,
-            "isOpen": false
-        },
-        {
-            "name": "Private Datasets",
-            "type": "group",
-            "items": [{
-                "name": "BE-LU-NL_20170421_3",
-                "type": "wms-getCapabilities",
-                "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/ms?map=/config/layers.map&request=getcapabilities&service=wms"
-            }],
-            "preserveOrder": true,
-            "isOpen": false
-        }
-    ],
-    "homeCamera": {
-        "west": 109,
-        "east": 158,
-        "north": -8,
-        "south": -45
-    },
-    "initialCamera": {
-        "lookAt": {
-            "targetLongitude": 4.3771,
-            "targetLatitude": 50.8434,
-            "targetHeight": 500,
-            "heading": 45,
-            "pitch": 90,
-            "range": 100000
-        }
-    },
-    "baseMapName": "Positron (Light)",
-    "viewerMode": "2d"
-}
+                "initialCamera": {
+                    "lookAt": {
+                        "targetLongitude": 4.3771,
+                        "targetLatitude": 50.8434,
+                        "targetHeight": 500,
+                        "heading": 45,
+                        "pitch": 90,
+                        "range": 100000
+                    }
+                },
+                "baseMapName": "Positron (Light)",
+                "viewerMode": "2d"
+            }
