@@ -118,7 +118,15 @@
                 "items": [{
                     "name": "RC1",
                     "type": "url-template",
-                    "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png"
+                    "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png",
+                    "minimumLevel": 13,
+                    "maximumLevel": 21,
+                    "rectangle": [
+                        2.449951,
+                        49.518076,
+                        7.415771,
+                        53.644638
+                    ]
                 }],
                 "preserveOrder": true,
                 "isOpen": false
