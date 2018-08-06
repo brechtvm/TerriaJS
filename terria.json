@@ -122,25 +122,25 @@
                 }],
                 "preserveOrder": true,
                 "isOpen": false
-            }],
-            "homeCamera": {
-                "west": 109,
-                "east": 158,
-                "north": -8,
-                "south": -45
-            },
-            "initialCamera": {
-                "lookAt": {
-                    "targetLongitude": 4.3771,
-                    "targetLatitude": 50.8434,
-                    "targetHeight": 500,
-                    "heading": 45,
-                    "pitch": 90,
-                    "range": 100000
-                }
-            },
-            "baseMapName": "Positron (Light)",
-            "viewerMode": "2d"
+            }]
         }
-    ]
+    ],
+    "homeCamera": {
+        "west": 109,
+        "east": 158,
+        "north": -8,
+        "south": -45
+    },
+    "initialCamera": {
+        "lookAt": {
+            "targetLongitude": 4.3771,
+            "targetLatitude": 50.8434,
+            "targetHeight": 500,
+            "heading": 45,
+            "pitch": 90,
+            "range": 100000
+        }
+    },
+    "baseMapName": "Positron (Light)",
+    "viewerMode": "2d"
 }
