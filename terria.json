@@ -121,6 +121,8 @@
                     "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png",
                     "minimumLevel": 13,
                     "maximumLevel": 21,
+                    "treat403AsError": false,
+                    "treat404AsError": false,
                     "rectangle": [
                         2.449951,
                         49.518076,
