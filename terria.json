@@ -116,21 +116,150 @@
                 "name": "BE-LU-NL_20170421_3",
                 "type": "group",
                 "items": [{
-                    "name": "RC1",
-                    "type": "url-template",
-                    "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png",
-                    "minimumLevel": 13,
-                    "maximumLevel": 21,
-                    "ignoreUnknownTileErrors": true,
-                    "treat403AsError": false,
-                    "treat404AsError": false,
-                    "rectangle": [
-                        2.449951,
-                        49.518076,
-                        7.415771,
-                        53.644638
-                    ]
-                }],
+                        "name": "RC1",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png",
+                        "minimumLevel": 13,
+                        "maximumLevel": 21,
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC2",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc2/{z}/{x}/{y}.png",
+                        "minimumLevel": 13,
+                        "maximumLevel": 21,
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC3",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc3/{z}/{x}/{y}.png",
+                        "minimumLevel": 13,
+                        "maximumLevel": 21,
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC4",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc4/{z}/{x}/{y}.png",
+                        "minimumLevel": 13,
+                        "maximumLevel": 21,
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC5",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc6/{z}/{x}/{y}.png",
+                        "minimumLevel": 13,
+                        "maximumLevel": 21,
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC6",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc7/{z}/{x}/{y}.png",
+                        "minimumLevel": 13,
+                        "maximumLevel": 21,
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC1",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc8/{z}/{x}/{y}.png",
+                        "minimumLevel": 13,
+                        "maximumLevel": 21,
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC8",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png",
+                        "minimumLevel": 13,
+                        "maximumLevel": 21,
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC1",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png",
+                        "minimumLevel": 13,
+                        "maximumLevel": 21,
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    }
+                ],
                 "preserveOrder": true,
                 "isOpen": false
             }]
