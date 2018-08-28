@@ -11,6 +11,11 @@
                             "url": "http://{a-c}.tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png"
                         },
                         {
+                            "name": "TEST-XYZ_only1",
+                            "type": "url-template",
+                            "url": "http://{a}.tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png"
+                        },
+                        {
                             "name": "ESRI World_Imagery",
                             "type": "wmts",
                             "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml"
