@@ -6,19 +6,6 @@
                     "name": "World",
                     "type": "group",
                     "items": [{
-                            "name": "Waze-TEST",
-                            "type": "url-template",
-                            "url": "https://worldtiles{3-4}.waze.com/tiles/{z}/{x}/{y}.png",
-                            "minimumLevel": 13,
-                            "maximumLevel": 21,
-                            "rectangle": [
-                                -31.860352,
-                                33.468108,
-                                51.855469,
-                                64.0722
-                            ]
-                        },
-                        {
                             "name": "ESRI World_Imagery",
                             "type": "wmts",
                             "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml"
@@ -26,7 +13,8 @@
                         {
                             "name": "Waze",
                             "type": "url-template",
-                            "url": "https://worldtiles4.waze.com/tiles/{z}/{x}/{y}.png",
+                            "url": "https://worldtiles{s}.waze.com/tiles/{z}/{x}/{y}.png",
+                            "subdomains": "1234",
                             "minimumLevel": 13,
                             "maximumLevel": 21,
                             "rectangle": [-31.860352,
