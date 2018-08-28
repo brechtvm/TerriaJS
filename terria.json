@@ -96,6 +96,26 @@
                                         "url": "https://km-beacons.be-mobile.biz/kmbeacons-w-small.json"
                                     }
                                 ]
+                            },
+                            {
+                                "type": "wfs",
+                                "name": "GeoServer Web Feature Service - Biodiversity and Ecosystems Data and Information Centre (BEDIC)",
+                                "url": "https://geoserver.bmdc.be/ows?REQUEST=GetCapabilities&SERVICE=WFS"
+
+                            }, {
+                                "type": "wfs",
+                                "name": "IRCEL - CELINE - Web Feature Service - Belgian Interregional Environment Agency",
+                                "url": "https://geo.irceline.be/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
+
+                            }, {
+                                "type": "wfs",
+                                "name": "meteo.be - Royal Meteorological Institute of Belgium",
+                                "url": "http://opendata.meteo.be/service/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
+
+                            }, {
+                                "type": "wfs",
+                                "name": "meteo.be - Royal Meteorological Institute of Belgium",
+                                "url": "http://opendata.meteo.be/service/lidar/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
                             }
                         ]
                     },
