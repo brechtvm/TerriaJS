@@ -658,362 +658,362 @@
                                             "url": "https://inspirepub.waterinfo.be/arcgis/services/ANB/zones/MapServer/WMSServer?REQUEST=GetCapabilities&SERVICE=WMS"
                                         },
                                         {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Agentschap Onroerend Erfgoed Publieke Download Service - Vlaamse Overheid - Onroerend Erfgoed",
                                             "url": "https://geo.onroerenderfgoed.be/geoserver/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Agentschap Onroerend Erfgoed Publieke Download Service - Vlaamse Overheid - Onroerend Erfgoed",
                                             "url": "https://geo.onroerenderfgoed.be/geoserver/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - ANB_zones - inspirepub.waterinfo.be",
                                             "url": "https://inspirepub.waterinfo.be/arcgis/services/ANB/zones/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Centraal Referentieadressenbestand - AGIV",
                                             "url": "http://crab.agiv.be/OGC/Service.svc/?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Download Service van Databank Ondergrond Vlaanderen - Vlaamse Overheid - DOV",
                                             "url": "https://www.dov.vlaanderen.be/geoserver/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - OVAM",
                                             "url": "https://services.ovam.be/geoserver/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - Gent",
                                             "url": "https://geo.gent.be/geoserver/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - RWO",
                                             "url": "https://ro.ruimtevlaanderen.be/drodsi-geoserver/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - Mediaraven Vzw",
                                             "url": "https://geoserver.mediaraven.be/geoserver/gisjeugd/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - AGIV",
                                             "url": "https://remotesensing.agiv.be/gis/geoserver/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - RWO",
                                             "url": "https://ro-publiek.ruimtevlaanderen.be/drodsi-geoserver/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - geoserver2.nodemapp.com",
                                             "url": "https://geoserver2.nodemapp.com/geoserver/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - Vlaamse Milieumaatschappij",
                                             "url": "https://geoserver.vmm.be/geoserver/HDGIS/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - RWO",
                                             "url": "https://ro-publiek.ruimtevlaanderen.be/drodsi-geoserver/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - Agentschap Informatie Vlaanderen",
                                             "url": "https://remotesensing.vlaanderen.be/services/openlidar/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - meetpunten - inspirepub.waterinfo.be",
                                             "url": "https://inspirepub.waterinfo.be/arcgis/services/meetpunten/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - meetpunten_MOW - inspirepub.waterinfo.be",
                                             "url": "https://inspirepub.waterinfo.be/arcgis/services/meetpunten_MOW/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Mercator Publieke Download Service - Vlaamse Overheid - Mercator",
                                             "url": "https://www.mercator.vlaanderen.be/raadpleegdienstenmercatorpubliek/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - P_IOT_iot_parking - geodata.antwerpen.be",
                                             "url": "https://geodata.antwerpen.be/arcgissql/services/P_IOT/iot_parking/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - routes_fietsnetwerk - trip.toerismevlaanderen.be",
                                             "url": "https://trip.toerismevlaanderen.be/arcgis/services/routes/fietsnetwerk/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - routes_wandelnetwerk - trip.toerismevlaanderen.be",
                                             "url": "https://trip.toerismevlaanderen.be/arcgis/services/routes/wandelnetwerk/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - verkeerscentrum.be - indicatoren.verkeerscentrum.be",
                                             "url": "http://indicatoren.verkeerscentrum.be/geoserver/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - gis.provincieantwerpen.be",
                                             "url": "https://gis.provincieantwerpen.be/arcgis/services/Publiek/AtlasBuurtwegen/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - geoservices.vlaamsbrabant.be",
                                             "url": "https://geoservices.vlaamsbrabant.be/RUPs/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - geoservices.vlaamsbrabant.be",
                                             "url": "https://geoservices.vlaamsbrabant.be/AtlasWaterlopen/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - geoservices.vlaamsbrabant.be",
                                             "url": "https://geoservices.vlaamsbrabant.be/AtlasBuurtwegen_wijzigingen/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - gis.provincieantwerpen.be",
                                             "url": "https://gis.provincieantwerpen.be/arcgis/services/Publiek/AtlasWaterlopen/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - geoservices.vlaamsbrabant.be",
                                             "url": "https://geoservices.vlaamsbrabant.be/TrageWegen/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - geoservices.vlaamsbrabant.be",
                                             "url": "https://geoservices.vlaamsbrabant.be/BFF/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - geoservices.vlaamsbrabant.be",
                                             "url": "https://geoservices.vlaamsbrabant.be/RecreatieveNetwerken/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - gis.provincieantwerpen.be",
                                             "url": "https://gis.provincieantwerpen.be/arcgis/services/Publiek/BFF/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - gis.provincieantwerpen.be",
                                             "url": "https://gis.provincieantwerpen.be/arcgis/services/Publiek/Ms_AtlasBuurtwegenTest/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS - gis.provincieantwerpen.be",
                                             "url": "https://gis.provincieantwerpen.be/arcgis/services/Viewers_html/TempBFF/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Adressen - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Adressen/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Bebossing op de Ferrariskaarten - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/BosFerraris/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Bebossing op de topografische kaarten - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/BosTopokaart/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Bebossing op de Vandermaelenkaarten - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/BosVandermaelen/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Bedrijventerreinen - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Bedrijventerreinen/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Beheergebieden - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/BehGeb/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Biologische Waarderingskaart en Natura 2000 Habitatkaart - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/BWK/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Bosleeftijd - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Bosleeftijd/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Bosreferentielaag 2000 - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Bosref/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Focusgebieden nitraat mestdecreet - AIV",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Focusnit/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Gebieden met recht van voorkoop - AIV",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/RVV/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS GRB - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/GRB/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Grenzen van Polders - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Polders/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Grenzen van wateringen - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Wateringen/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Haltes De Lijn - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Haltes/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Landbouwgebruikspercelen - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Landbgebrperc/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Landbouwstreken België - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Landbouwstreken/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Meetnet Afvalwater - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/MeetnetAfvalwater/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Meetnet Riooloverstorten - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/MeetnetRiooloverstorten/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Meetplaatsen Oppervlaktewaterkwaliteit - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/MeetplOppervlwaterkwal/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS met services van de VMM - inspirepub.waterinfo.be",
                                             "url": "https://inspirepub.waterinfo.be/arcgis/services/waterinfo_WFS/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Opnameposities 360°-beeldendatabank Vlaanderen - AGIV",
                                             "url": "https://viewer.image-v.be/MM_Opnameposities?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Oppervlaktewaterwingebieden Drinkwater - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/OppwwinDrinkwater/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Overstromingsgebieden en oeverzones - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/OGOZ/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Potentieel natuurlijke vegetatie - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/PNV/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Recent overstroomde gebieden - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/ROG/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Reiswegen De Lijn - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Reiswegen/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Rioleringsdatabank Vlaanderen - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Rioleringsdatabank/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Steunzones - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Steunzones/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Traditionele landschappen - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/TradLa/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Van nature overstroombare gebieden - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/NOG/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Verrijkte KruispuntBank Ondernemingen - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/VKBO/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Vlaamse Hydrografische Atlas - Waterlopen - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/VHAWaterlopen/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Vlaamse Hydrografische Atlas - Zones - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/VHAZones/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Voorlopig referentiebestand gemeentegrenzen - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/VRBG/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Waterkwaliteitsdoelstellingen Wateroppervlakken - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/WokwdoelWateropp/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Watersystemen - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/Watersystemen/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Woningbouw- en woonvernieuwingsgebieden - agentschap Informatie Vlaanderen",
                                             "url": "https://geoservices.informatievlaanderen.be/overdrachtdiensten/WoningbWoonvernieuwing/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Wrecks in the Belgian Continental Shelf - Coastal Division - Flemish Hydrography",
                                             "url": "https://bathy.agentschapmdk.be/spatialfusionserver/services/ows/download/feature/AM_wfs?REQUEST=GetCapabilities&SERVICE=WFS"
                                         }
@@ -1138,72 +1138,72 @@
                                             "url": "https://data-mobility.irisnet.be/geoserver/bm_public_space/ows?REQUEST=GetCapabilities&SERVICE=WMS"
                                         },
                                         {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Brugis WFS - DAF - BDU - SPRB",
                                             "url": "https://mybrugis.irisnet.be/geoserver/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - CIRB WFS1 - CIRB",
                                             "url": "http://geoserver.gis.irisnet.be/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - CIRB WFS1 - CIRB",
                                             "url": "http://geoserver.gis.irisnet.be/geoserver/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - CIRB WFS1 - CIRB",
                                             "url": "http://geoserver.gis.irisnet.be/urbis/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - BruGIS team - DAF - BDU",
                                             "url": "http://ws.brugis.irisnet.be/geoserver/INSPIREFR/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - BruGIS team - DAF - BDU",
                                             "url": "http://ws.brugis.irisnet.be/geoserver/INSPIRENL/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - BruGIS team - DAF - BDU",
                                             "url": "http://ws.brugis.irisnet.be/geoserver/INSPIREEN/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - irisnet.be - CIRB",
                                             "url": "https://geoservices-urbis.irisnet.be/geoserver/Urbis/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - layer of proprietary information - Gael Kruwialis",
                                             "url": "http://wfs.ibgebim.be/ibgewfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - layer of proprietary information - Gael Kruwialis",
                                             "url": "http://wfs.ibgebim.be/cgi-bin/tinyows.fcgi?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS for bm_bike - Brussels Mobility",
                                             "url": "https://data-mobility.irisnet.be/geoserver/bm_bike/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS for bm_parking - Brussels Mobility",
                                             "url": "https://data-mobility.irisnet.be/geoserver/bm_parking/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS for bm_public_space - Brussels Mobility",
                                             "url": "https://data-mobility.irisnet.be/geoserver/bm_public_space/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS for bm_public_transport - Brussels Mobility",
                                             "url": "https://data-mobility.irisnet.be/geoserver/bm_public_transport/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
                                         }
@@ -2098,47 +2098,47 @@
                                             "url": "https://geoservices.wallonie.be/arcgis/services/INDUSTRIES_SERVICES/ZONE_FRANCHE/MapServer/WMSServer?REQUEST=GetCapabilities&SERVICE=WMS"
                                         },
                                         {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - APP_IRIS_IRIS_DS_WFS - geoservices2.wallonie.be",
                                             "url": "https://geoservices2.wallonie.be/arcgis/services/APP_IRIS/IRIS_DS_WFS/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - APP_IRIS_IRIS_LAST_WFS - geoservices2.wallonie.be",
                                             "url": "https://geoservices2.wallonie.be/arcgis/services/APP_IRIS/IRIS_LAST_WFS/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Arrets - geodata.tec-wl.be",
                                             "url": "https://geodata.tec-wl.be/arcgis/services/Arrets/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Lignes - geodata.tec-wl.be",
                                             "url": "https://geodata.tec-wl.be/arcgis/services/Lignes/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - My GeoServer WFS - geonode.imio.be",
                                             "url": "https://geonode.imio.be/geoserver/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Poteaux - geodata.tec-wl.be",
                                             "url": "https://geodata.tec-wl.be/arcgis/services/Poteaux/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFS Inventaire Terrain - siggwm.hainaut.be",
                                             "url": "https://siggwm.hainaut.be/WFS_InventaireTerrain/service.svc/get?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - WFSG Rues - sample provider name",
                                             "url": "https://siggwm.hainaut.be/WFSG_Hainaut/service.svc/get?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - Zones - geodata.tec-wl.be",
                                             "url": "https://geodata.tec-wl.be/arcgis/services/Zones/MapServer/WFSServer?REQUEST=GetCapabilities&SERVICE=WFS"
                                         }
@@ -2284,22 +2284,22 @@
                                             "url": "https://wms.ngi.be/inspire/transports/service?REQUEST=GetCapabilities&SERVICE=WMS"
                                         },
                                         {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - GeoServer Web Feature Service - Biodiversity and Ecosystems Data and Information Centre (BEDIC)",
                                             "url": "https://geoserver.bmdc.be/ows?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - IRCEL - CELINE - Web Feature Service - Belgian Interregional Environment Agency",
                                             "url": "https://geo.irceline.be/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - meteo.be - Royal Meteorological Institute of Belgium",
                                             "url": "http://opendata.meteo.be/service/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
 
                                         }, {
-                                            "type": "wfs-features-group",
+                                            "type": "wfs-getCapabilities",
                                             "name": "WFS - meteo.be - Royal Meteorological Institute of Belgium",
                                             "url": "http://opendata.meteo.be/service/lidar/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
                                         }
