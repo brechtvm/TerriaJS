@@ -2442,48 +2442,6 @@
                                             "url": "https://tile.openstreetmap.be/osmbe-nl/{z}/{x}/{y}.png",
                                             "minimumLevel": "0",
                                             "maximumLevel": "18"
-                                        },
-                                        {
-                                            "name": "XYZ - OpenStreetMap - Nederland - OpenStreetMap Nederland",
-                                            "type": "url-template",
-                                            "url": "https://tile.openstreetmap.nl/osm/{z}/{x}/{y}.png",
-                                            "minimumLevel": "0",
-                                            "maximumLevel": "18"
-                                        },
-                                        {
-                                            "name": "XYZ - OpenStreetMap - Nederland - Basiskaart - OpenStreetMap Nederland",
-                                            "type": "url-template",
-                                            "url": "https://tile.openstreetmap.nl/basemap/{z}/{x}/{y}.png",
-                                            "minimumLevel": "0",
-                                            "maximumLevel": "18"
-                                        },
-                                        {
-                                            "name": "XYZ - OpenStreetMap - Nederland - Plaatsen - OpenStreetMap Nederland",
-                                            "type": "url-template",
-                                            "url": "https://tile.openstreetmap.nl/places/{z}/{x}/{y}.png",
-                                            "minimumLevel": "0",
-                                            "maximumLevel": "18"
-                                        },
-                                        {
-                                            "name": "XYZ - OpenStreetMap - Nederland - POI's - OpenStreetMap Nederland",
-                                            "type": "url-template",
-                                            "url": "https://tile.openstreetmap.nl/pois/{z}/{x}/{y}.png",
-                                            "minimumLevel": "0",
-                                            "maximumLevel": "18"
-                                        },
-                                        {
-                                            "name": "XYZ - OpenStreetMap - Nederland - Straten - OpenStreetMap Nederland",
-                                            "type": "url-template",
-                                            "url": "https://tile.openstreetmap.nl/roads/{z}/{x}/{y}.png",
-                                            "minimumLevel": "0",
-                                            "maximumLevel": "17"
-                                        },
-                                        {
-                                            "name": "XYZ - OpenWandelKaart - OpenStreetMap Nederland",
-                                            "type": "url-template",
-                                            "url": "https://tile.openstreetmap.nl/openwandelkaart-overlay/{z}/{x}/{y}.png",
-                                            "minimumLevel": "0",
-                                            "maximumLevel": "18"
                                         }
                                     ]
                                 }
@@ -2493,10 +2451,53 @@
                             "name": "EU - NL (TheNetherlands)",
                             "type": "group",
                             "items": [{
-                                "name": "RWS - Weggeg",
-                                "type": "wms-getCapabilities",
-                                "url": "http://geoservices.rijkswaterstaat.nl/weggeg?request=getcapabilities&service=wms"
-                            }]
+                                    "name": "RWS - Weggeg",
+                                    "type": "wms-getCapabilities",
+                                    "url": "http://geoservices.rijkswaterstaat.nl/weggeg?request=getcapabilities&service=wms"
+                                },
+                                {
+                                    "name": "XYZ - OpenStreetMap - Nederland - OpenStreetMap Nederland",
+                                    "type": "url-template",
+                                    "url": "https://tile.openstreetmap.nl/osm/{z}/{x}/{y}.png",
+                                    "minimumLevel": "0",
+                                    "maximumLevel": "18"
+                                },
+                                {
+                                    "name": "XYZ - OpenStreetMap - Nederland - Basiskaart - OpenStreetMap Nederland",
+                                    "type": "url-template",
+                                    "url": "https://tile.openstreetmap.nl/basemap/{z}/{x}/{y}.png",
+                                    "minimumLevel": "0",
+                                    "maximumLevel": "18"
+                                },
+                                {
+                                    "name": "XYZ - OpenStreetMap - Nederland - Plaatsen - OpenStreetMap Nederland",
+                                    "type": "url-template",
+                                    "url": "https://tile.openstreetmap.nl/places/{z}/{x}/{y}.png",
+                                    "minimumLevel": "0",
+                                    "maximumLevel": "18"
+                                },
+                                {
+                                    "name": "XYZ - OpenStreetMap - Nederland - POI's - OpenStreetMap Nederland",
+                                    "type": "url-template",
+                                    "url": "https://tile.openstreetmap.nl/pois/{z}/{x}/{y}.png",
+                                    "minimumLevel": "0",
+                                    "maximumLevel": "18"
+                                },
+                                {
+                                    "name": "XYZ - OpenStreetMap - Nederland - Straten - OpenStreetMap Nederland",
+                                    "type": "url-template",
+                                    "url": "https://tile.openstreetmap.nl/roads/{z}/{x}/{y}.png",
+                                    "minimumLevel": "0",
+                                    "maximumLevel": "17"
+                                },
+                                {
+                                    "name": "XYZ - OpenWandelKaart - OpenStreetMap Nederland",
+                                    "type": "url-template",
+                                    "url": "https://tile.openstreetmap.nl/openwandelkaart-overlay/{z}/{x}/{y}.png",
+                                    "minimumLevel": "0",
+                                    "maximumLevel": "18"
+                                }
+                            ]
                         }
                     ]
                 }
