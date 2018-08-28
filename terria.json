@@ -1017,6 +1017,30 @@
                                             "type": "wfs-getCapabilities",
                                             "name": "WFS - Wrecks in the Belgian Continental Shelf - Coastal Division - Flemish Hydrography",
                                             "url": "https://bathy.agentschapmdk.be/spatialfusionserver/services/ows/download/feature/AM_wfs?REQUEST=GetCapabilities&SERVICE=WFS"
+                                        },
+                                        {
+                                            "name": "XYZ - GRB Basiskaart (grijs) - Informatie Vlaanderen",
+                                            "url": "https://tile.informatievlaanderen.be/ws/raadpleegdiensten/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=grb_bsk_grijs&STYLE=&FORMAT=image/png&TILEMATRIXSET=GoogleMapsVL&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "21"
+                                        },
+                                        {
+                                            "name": "XYZ - GRB Basiskaart (kleur) - Informatie Vlaanderen",
+                                            "url": "https://tile.informatievlaanderen.be/ws/raadpleegdiensten/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=grb_bsk&STYLE=&FORMAT=image/png&TILEMATRIXSET=GoogleMapsVL&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "21"
+                                        },
+                                        {
+                                            "name": "XYZ - GRB Basiskaart (selectie) - Informatie Vlaanderen",
+                                            "url": "https://tile.informatievlaanderen.be/ws/raadpleegdiensten/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=grb_sel&STYLE=&FORMAT=image/png&TILEMATRIXSET=GoogleMapsVL&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "21"
+                                        },
+                                        {
+                                            "name": "XYZ - Orthofoto - Agentschap Informatie Vlaanderen",
+                                            "url": "https://tile.informatievlaanderen.be/ws/raadpleegdiensten/wmts?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetTile&LAYER=omwrgbmrvl&STYLE=&FORMAT=image/png&TILEMATRIXSET=GoogleMapsVL&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "21"
                                         }
                                     ]
                                 },
@@ -2150,6 +2174,138 @@
                                     "name": "Country",
                                     "type": "group",
                                     "items": [{
+                                            "name": "XYZ - Belgium Boundary - GEO-6",
+                                            "url": "https://geo6.be/mapproxy/boundary/wmts/boundary/webmercator/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "19"
+                                        },
+                                        {
+                                            "name": "XYZ - Belgium Civil Protection - GEO-6",
+                                            "url": "https://geo6.be/mapproxy/zones/wmts/civil_protection/webmercator/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "19"
+                                        },
+                                        {
+                                            "name": "XYZ - Belgium Emergency - GEO-6",
+                                            "url": "https://geo6.be/mapproxy/zones/wmts/emergency/webmercator/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "19"
+                                        },
+                                        {
+                                            "name": "XYZ - Belgium Fire Service - GEO-6",
+                                            "url": "https://geo6.be/mapproxy/zones/wmts/fire_service/webmercator/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "19"
+                                        },
+                                        {
+                                            "name": "XYZ - Belgium Judicial - GEO-6",
+                                            "url": "https://geo6.be/mapproxy/zones/wmts/judicial/webmercator/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "19"
+                                        },
+                                        {
+                                            "name": "XYZ - Belgium Police - GEO-6",
+                                            "url": "https://geo6.be/mapproxy/zones/wmts/police/webmercator/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "19"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenFietsKaart - OpenStreetMap Nederland",
+                                            "url": "https://tile.openstreetmap.nl/openfietskaart-overlay/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenFietsKaart (Lokaal) - OpenStreetMap Nederland",
+                                            "url": "https://tile.openstreetmap.nl/openfietskaart-lcn/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenFietsKaart (Nationaal) - OpenStreetMap Nederland",
+                                            "url": "https://tile.openstreetmap.nl/openfietskaart-ncn/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenFietsKaart (Regionaal) - OpenStreetMap Nederland",
+                                            "url": "https://tile.openstreetmap.nl/openfietskaart-rcn/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Belgium (FR) - OpenStreetMap Belgium",
+                                            "url": "https://tile.osm.be/osmbe-fr/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Belgium (FR) - OpenStreetMap Belgium",
+                                            "url": "https://tile.openstreetmap.be/osmbe-fr/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Belgium (Multilingual) - OpenStreetMap Belgium",
+                                            "url": "https://tile.osm.be/osmbe/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Belgium (Multilingual) - OpenStreetMap Belgium",
+                                            "url": "https://tile.openstreetmap.be/osmbe/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Belgium (NL) - OpenStreetMap Belgium",
+                                            "url": "https://tile.osm.be/osmbe-nl/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Belgium (NL) - OpenStreetMap Belgium",
+                                            "url": "https://tile.openstreetmap.be/osmbe-nl/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Nederland - OpenStreetMap Nederland",
+                                            "url": "https://tile.openstreetmap.nl/osm/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Nederland - Basiskaart - OpenStreetMap Nederland",
+                                            "url": "https://tile.openstreetmap.nl/basemap/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Nederland - Plaatsen - OpenStreetMap Nederland",
+                                            "url": "https://tile.openstreetmap.nl/places/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Nederland - POI's - OpenStreetMap Nederland",
+                                            "url": "https://tile.openstreetmap.nl/pois/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenStreetMap - Nederland - Straten - OpenStreetMap Nederland",
+                                            "url": "https://tile.openstreetmap.nl/roads/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "17"
+                                        },
+                                        {
+                                            "name": "XYZ - OpenWandelKaart - OpenStreetMap Nederland",
+                                            "url": "https://tile.openstreetmap.nl/openwandelkaart-overlay/{z}/{x}/{y}.png",
+                                            "minimumLevel": "0",
+                                            "maximumLevel": "18"
+                                        },
+                                        {
                                             "name": "WMS - CartoWeb.be - wms.ngi.be",
                                             "type": "wms-getCapabilities",
                                             "url": "https://wms.ngi.be/cartoweb/service?REQUEST=GetCapabilities&SERVICE=WMS"
