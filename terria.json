@@ -6,6 +6,11 @@
                     "name": "World",
                     "type": "group",
                     "items": [{
+                            "name": "TEST-XYZ",
+                            "type": "url-template",
+                            "url": "http://{a-c}.tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png"
+                        },
+                        {
                             "name": "ESRI World_Imagery",
                             "type": "wmts",
                             "url": "http://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml"
