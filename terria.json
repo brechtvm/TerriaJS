@@ -1829,7 +1829,11 @@
         {
             "name": "Private Datasets",
             "type": "group",
-            "items": [{}]
+            "items": [{
+                "name": "Placeholder",
+                "type": "wms-getCapabilities",
+                "url": "http://www.DoesNotExist.be/WMSServer?REQUEST=GetCapabilities&SERVICE=WMS"
+            }]
         }
     ],
     "homeCamera": {
