@@ -114,7 +114,7 @@
 
                             }, {
                                 "type": "wfs",
-                                "name": "meteo.be - Royal Meteorological Institute of Belgium",
+                                "name": "meteo.be - Royal Meteorological Institute of Belgium - lidar",
                                 "url": "http://opendata.meteo.be/service/lidar/wfs?REQUEST=GetCapabilities&SERVICE=WFS"
                             }
                         ]
