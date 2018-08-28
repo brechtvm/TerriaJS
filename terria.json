@@ -6,14 +6,17 @@
                     "name": "World",
                     "type": "group",
                     "items": [{
-                            "name": "TEST-XYZ",
+                            "name": "Waze-TEST",
                             "type": "url-template",
-                            "url": "http://{a-c}.tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png"
-                        },
-                        {
-                            "name": "TEST-XYZ_only1",
-                            "type": "url-template",
-                            "url": "http://{a}.tiles.wmflabs.org/hikebike/{z}/{x}/{y}.png"
+                            "url": "https://worldtiles{3-4}.waze.com/tiles/{z}/{x}/{y}.png",
+                            "minimumLevel": 13,
+                            "maximumLevel": 21,
+                            "rectangle": [
+                                -31.860352,
+                                33.468108,
+                                51.855469,
+                                64.0722
+                            ]
                         },
                         {
                             "name": "ESRI World_Imagery",
