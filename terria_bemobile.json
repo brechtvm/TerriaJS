@@ -8,7 +8,7 @@
                 "items": [{
                         "name": "OpenStreetMap (OSM)",
                         "type": "open-street-map",
-                        "url": "https://{s}.tile.openstreetmap.org/${z}/${x}/${y}.png",
+                        "url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                         "treat403AsError": false,
                         "treat404AsError": false
                     },
