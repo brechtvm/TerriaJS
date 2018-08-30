@@ -7,7 +7,8 @@
                 "type": "group",
                 "items": [{
                         "name": "OpenStreetMap (OSM)",
-                        "type": "open-street-map"
+                        "type": "open-street-map",
+                        "url": "https://{s}.tile.openstreetmap.org/${z}/${x}/${y}.png"
                     },
                     {
                         "name": "ESRI World_Imagery",
