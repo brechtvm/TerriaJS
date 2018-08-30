@@ -9,8 +9,8 @@
                         "name": "OpenStreetMap (OSM)",
                         "type": "open-street-map",
                         "url": "https://{s}.tile.openstreetmap.org",
-                        "treat403AsError": false,
-                        "treat404AsError": false
+                        "isEnabled": true,
+                        "isShown": true
                     },
                     {
                         "name": "ESRI World_Imagery",
