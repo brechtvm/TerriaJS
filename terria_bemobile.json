@@ -9,7 +9,7 @@
                         "name": "OpenStreetMap (OSM)",
                         "type": "url-template",
                         "url": "https://{s}.tile.openstreetmap.org/${z}/${x}/${y}.png",
-                        "subdomains": "1234"
+                        "subdomains": "abc"
                     },
                     {
                         "name": "ESRI World_Imagery",
