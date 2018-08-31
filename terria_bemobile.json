@@ -124,128 +124,190 @@
         "name": "Private Datasets",
         "type": "group",
         "items": [{
-            "name": "BE-LU-NL_20170421_3",
-            "type": "group",
-            "items": [{
-                    "name": "RC1",
-                    "type": "url-template",
-                    "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png",
-                    "ignoreUnknownTileErrors": true,
-                    "treat403AsError": false,
-                    "treat404AsError": false,
-                    "rectangle": [
-                        2.449951,
-                        49.518076,
-                        7.415771,
-                        53.644638
-                    ]
-                },
-                {
-                    "name": "RC2",
-                    "type": "url-template",
-                    "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc2/{z}/{x}/{y}.png",
-                    "ignoreUnknownTileErrors": true,
-                    "treat403AsError": false,
-                    "treat404AsError": false,
-                    "rectangle": [
-                        2.449951,
-                        49.518076,
-                        7.415771,
-                        53.644638
-                    ]
-                },
-                {
-                    "name": "RC3",
-                    "type": "url-template",
-                    "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc3/{z}/{x}/{y}.png",
-                    "ignoreUnknownTileErrors": true,
-                    "treat403AsError": false,
-                    "treat404AsError": false,
-                    "rectangle": [
-                        2.449951,
-                        49.518076,
-                        7.415771,
-                        53.644638
-                    ]
-                },
-                {
-                    "name": "RC4",
-                    "type": "url-template",
-                    "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc4/{z}/{x}/{y}.png",
-                    "ignoreUnknownTileErrors": true,
-                    "treat403AsError": false,
-                    "treat404AsError": false,
-                    "rectangle": [
-                        2.449951,
-                        49.518076,
-                        7.415771,
-                        53.644638
-                    ]
-                }
-            ],
-            "preserveOrder": true,
-            "isOpen": false
-        }, {
-            "name": "FR_20180407_1",
-            "type": "group",
-            "items": [{
-                    "name": "RC1",
-                    "type": "url-template",
-                    "url": "https://basemap-mapserver.be-mobile.biz/map/FR_20180407_1/rc1/{z}/{x}/{y}.png",
-                    "ignoreUnknownTileErrors": true,
-                    "treat403AsError": false,
-                    "treat404AsError": false,
-                    "rectangle": [
-                        2.449951,
-                        49.518076,
-                        7.415771,
-                        53.644638
-                    ]
-                },
-                {
-                    "name": "RC2",
-                    "type": "url-template",
-                    "url": "https://basemap-mapserver.be-mobile.biz/map/FR_20180407_1/rc2/{z}/{x}/{y}.png",
-                    "ignoreUnknownTileErrors": true,
-                    "treat403AsError": false,
-                    "treat404AsError": false,
-                    "rectangle": [
-                        2.449951,
-                        49.518076,
-                        7.415771,
-                        53.644638
-                    ]
-                },
-                {
-                    "name": "RC3",
-                    "type": "url-template",
-                    "url": "https://basemap-mapserver.be-mobile.biz/map/FR_20180407_1/rc3/{z}/{x}/{y}.png",
-                    "ignoreUnknownTileErrors": true,
-                    "treat403AsError": false,
-                    "treat404AsError": false,
-                    "rectangle": [
-                        2.449951,
-                        49.518076,
-                        7.415771,
-                        53.644638
-                    ]
-                },
-                {
-                    "name": "RC4",
-                    "type": "url-template",
-                    "url": "https://basemap-mapserver.be-mobile.biz/map/FR_20180407_1/rc4/{z}/{x}/{y}.png",
-                    "ignoreUnknownTileErrors": true,
-                    "treat403AsError": false,
-                    "treat404AsError": false,
-                    "rectangle": [
-                        2.449951,
-                        49.518076,
-                        7.415771,
-                        53.644638
-                    ]
-                }
-            ]
-        }]
+                "name": "BE-LU-NL_20170421_3",
+                "type": "group",
+                "items": [{
+                        "name": "RC1",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc1/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC2",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc2/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC3",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc3/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC4",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/BE-LU-NL_20170421_3/rc4/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    }
+                ],
+                "preserveOrder": true,
+                "isOpen": false
+            }, {
+                "name": "FR_20180407_1",
+                "type": "group",
+                "items": [{
+                        "name": "RC1",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/FR_20180407_1/rc1/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC2",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/FR_20180407_1/rc2/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC3",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/FR_20180407_1/rc3/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC4",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/FR_20180407_1/rc4/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "DE_20180407_1",
+                "type": "group",
+                "items": [{
+                        "name": "RC1",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/DE_20180407_1/rc1/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC2",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/DE_20180407_1/rc2/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC3",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/DE_20180407_1/rc3/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    },
+                    {
+                        "name": "RC4",
+                        "type": "url-template",
+                        "url": "https://basemap-mapserver.be-mobile.biz/map/DE_20180407_1/rc4/{z}/{x}/{y}.png",
+                        "ignoreUnknownTileErrors": true,
+                        "treat403AsError": false,
+                        "treat404AsError": false,
+                        "rectangle": [
+                            2.449951,
+                            49.518076,
+                            7.415771,
+                            53.644638
+                        ]
+                    }
+                ]
+            }
+        ]
     }],
     "homeCamera": {
         "west": 109,
