@@ -183,6 +183,9 @@
                     ]
                 }
             ],
+            "preserveOrder": true,
+            "isOpen": false
+        }, {
             "name": "FR_20180407_1",
             "type": "group",
             "items": [{
@@ -241,9 +244,7 @@
                         53.644638
                     ]
                 }
-            ],
-            "preserveOrder": true,
-            "isOpen": false
+            ]
         }]
     }],
     "homeCamera": {
